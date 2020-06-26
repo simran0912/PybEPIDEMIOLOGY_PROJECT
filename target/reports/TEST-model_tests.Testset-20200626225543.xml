@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="6" failures="0" file="model_tests.py" name="model_tests.Testset-20200626225543" skipped="0" tests="6" time="0.030" timestamp="2020-06-26T22:55:44">
+	<testcase classname="model_tests.Testset" name="test_SEIR_RESULTS_NOT_EMPTY" time="0.008" timestamp="2020-06-26T22:55:44">
+		<error message="[Errno 2] File japanpop1.csv does not exist: 'japanpop1.csv'" type="FileNotFoundError">
+<![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python3.6/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/usr/lib/python3.6/unittest/case.py", line 605, in run
+    testMethod()
+  File "/mnt/c/users/mahe/desktop/new folder/newproject/src/unittest/python/model_tests.py", line 107, in test_SEIR_RESULTS_NOT_EMPTY
+    df = pd.read_csv("japanpop1.csv")
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 676, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 448, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 880, in __init__
+    self._make_engine(self.engine)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 1114, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 1891, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 374, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] File japanpop1.csv does not exist: 'japanpop1.csv'
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="model_tests.Testset" name="test_SEIR_divide_by_zero_errors" time="0.004" timestamp="2020-06-26T22:55:44">
+		<error message="[Errno 2] File japanpop1.csv does not exist: 'japanpop1.csv'" type="FileNotFoundError">
+<![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python3.6/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/usr/lib/python3.6/unittest/case.py", line 605, in run
+    testMethod()
+  File "/mnt/c/users/mahe/desktop/new folder/newproject/src/unittest/python/model_tests.py", line 82, in test_SEIR_divide_by_zero_errors
+    df = pd.read_csv("japanpop1.csv")
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 676, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 448, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 880, in __init__
+    self._make_engine(self.engine)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 1114, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 1891, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 374, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] File japanpop1.csv does not exist: 'japanpop1.csv'
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="model_tests.Testset" name="test_SIR_RESULTS_not_empty" time="0.004" timestamp="2020-06-26T22:55:44">
+		<error message="[Errno 2] File japanpop1.csv does not exist: 'japanpop1.csv'" type="FileNotFoundError">
+<![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python3.6/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/usr/lib/python3.6/unittest/case.py", line 605, in run
+    testMethod()
+  File "/mnt/c/users/mahe/desktop/new folder/newproject/src/unittest/python/model_tests.py", line 29, in test_SIR_RESULTS_not_empty
+    df = pd.read_csv("japanpop1.csv")
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 676, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 448, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 880, in __init__
+    self._make_engine(self.engine)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 1114, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 1891, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 374, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] File japanpop1.csv does not exist: 'japanpop1.csv'
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="model_tests.Testset" name="test_SIR_divide_by_zero_errors" time="0.005" timestamp="2020-06-26T22:55:44">
+		<error message="[Errno 2] File japanpop1.csv does not exist: 'japanpop1.csv'" type="FileNotFoundError">
+<![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python3.6/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/usr/lib/python3.6/unittest/case.py", line 605, in run
+    testMethod()
+  File "/mnt/c/users/mahe/desktop/new folder/newproject/src/unittest/python/model_tests.py", line 56, in test_SIR_divide_by_zero_errors
+    df = pd.read_csv("japanpop1.csv")
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 676, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 448, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 880, in __init__
+    self._make_engine(self.engine)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 1114, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 1891, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 374, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] File japanpop1.csv does not exist: 'japanpop1.csv'
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="model_tests.Testset" name="test_SIS_RESULTS_NOT_EMPTY" time="0.004" timestamp="2020-06-26T22:55:44">
+		<error message="[Errno 2] File japanpop1.csv does not exist: 'japanpop1.csv'" type="FileNotFoundError">
+<![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python3.6/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/usr/lib/python3.6/unittest/case.py", line 605, in run
+    testMethod()
+  File "/mnt/c/users/mahe/desktop/new folder/newproject/src/unittest/python/model_tests.py", line 137, in test_SIS_RESULTS_NOT_EMPTY
+    df = pd.read_csv("japanpop1.csv")
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 676, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 448, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 880, in __init__
+    self._make_engine(self.engine)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 1114, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 1891, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 374, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] File japanpop1.csv does not exist: 'japanpop1.csv'
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="model_tests.Testset" name="test_SIS_divide_by_zero_errors" time="0.004" timestamp="2020-06-26T22:55:44">
+		<error message="[Errno 2] File japanpop1.csv does not exist: 'japanpop1.csv'" type="FileNotFoundError">
+<![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python3.6/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/usr/lib/python3.6/unittest/case.py", line 605, in run
+    testMethod()
+  File "/mnt/c/users/mahe/desktop/new folder/newproject/src/unittest/python/model_tests.py", line 170, in test_SIS_divide_by_zero_errors
+    df = pd.read_csv("japanpop1.csv")
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 676, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 448, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 880, in __init__
+    self._make_engine(self.engine)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 1114, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/pandas/io/parsers.py", line 1891, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 374, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] File japanpop1.csv does not exist: 'japanpop1.csv'
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

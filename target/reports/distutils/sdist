@@ -1,0 +1,45 @@
+WARNING: '.' not a valid package name; please use only .-separated package names in setup.py
+running clean
+'build/temp.linux-x86_64-3.6' does not exist -- can't clean it
+'build/lib' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-3.6' does not exist -- can't clean it
+running sdist
+running egg_info
+creating HPE_PROJECT.egg-info
+writing HPE_PROJECT.egg-info/PKG-INFO
+writing dependency_links to HPE_PROJECT.egg-info/dependency_links.txt
+writing namespace_packages to HPE_PROJECT.egg-info/namespace_packages.txt
+writing top-level names to HPE_PROJECT.egg-info/top_level.txt
+writing manifest file 'HPE_PROJECT.egg-info/SOURCES.txt'
+'license_file' option was not specified
+reading manifest file 'HPE_PROJECT.egg-info/SOURCES.txt'
+writing manifest file 'HPE_PROJECT.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: Check: missing required meta-data: url
+
+creating HPE PROJECT-1.0
+creating HPE PROJECT-1.0/HPE_PROJECT.egg-info
+copying files to HPE PROJECT-1.0...
+copying SIER_CODE.py -> HPE PROJECT-1.0
+copying SIR_CODE.py -> HPE PROJECT-1.0
+copying SIS_CODE.py -> HPE PROJECT-1.0
+copying __init__.py -> HPE PROJECT-1.0
+copying setup.py -> HPE PROJECT-1.0
+copying HPE_PROJECT.egg-info/PKG-INFO -> HPE PROJECT-1.0/HPE_PROJECT.egg-info
+copying HPE_PROJECT.egg-info/SOURCES.txt -> HPE PROJECT-1.0/HPE_PROJECT.egg-info
+copying HPE_PROJECT.egg-info/dependency_links.txt -> HPE PROJECT-1.0/HPE_PROJECT.egg-info
+copying HPE_PROJECT.egg-info/namespace_packages.txt -> HPE PROJECT-1.0/HPE_PROJECT.egg-info
+copying HPE_PROJECT.egg-info/top_level.txt -> HPE PROJECT-1.0/HPE_PROJECT.egg-info
+copying HPE_PROJECT.egg-info/zip-safe -> HPE PROJECT-1.0/HPE_PROJECT.egg-info
+not copying HPE_PROJECT.egg-info/SOURCES.txt (output up-to-date)
+Reading configuration from HPE PROJECT-1.0/setup.cfg
+Adding new section [egg_info] to HPE PROJECT-1.0/setup.cfg
+Setting egg_info.tag_build to '' in HPE PROJECT-1.0/setup.cfg
+Setting egg_info.tag_date to 0 in HPE PROJECT-1.0/setup.cfg
+Writing HPE PROJECT-1.0/setup.cfg
+creating dist
+Creating tar archive
+removing 'HPE PROJECT-1.0' (and everything under it)

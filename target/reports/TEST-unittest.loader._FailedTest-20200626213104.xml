@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" file="unittest/loader.py" name="unittest.loader._FailedTest-20200626213104" skipped="0" tests="1" time="0.004" timestamp="2020-06-26T21:31:05">
+	<testcase classname="unittest.loader._FailedTest" name="model_tests" time="0.004" timestamp="2020-06-26T21:31:05">
+		<error message="Failed to import test module: model_tests
+Traceback (most recent call last):
+  File &quot;/usr/lib/python3.6/unittest/loader.py&quot;, line 153, in loadTestsFromName
+    module = __import__(module_name)
+  File &quot;/mnt/c/users/mahe/desktop/new folder/newproject/src/unittest/python/model_tests.py&quot;, line 4, in &lt;module&gt;
+    matplotlib.use('TkAgg')
+  File &quot;/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/matplotlib/cbook/deprecation.py&quot;, line 296, in wrapper
+    return func(*args, **kwargs)
+  File &quot;/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/matplotlib/cbook/deprecation.py&quot;, line 358, in wrapper
+    return func(*args, **kwargs)
+  File &quot;/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/matplotlib/__init__.py&quot;, line 1281, in use
+    plt.switch_backend(name)
+  File &quot;/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/matplotlib/pyplot.py&quot;, line 221, in switch_backend
+    backend_mod = importlib.import_module(backend_name)
+  File &quot;/mnt/c/users/mahe/desktop/new folder/newproject/target/venv/build/cpython-3.6.9.final.0/lib/python3.6/importlib/__init__.py&quot;, line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File &quot;/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/matplotlib/backends/backend_tkagg.py&quot;, line 1, in &lt;module&gt;
+    from . import _backend_tk
+  File &quot;/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/matplotlib/backends/_backend_tk.py&quot;, line 6, in &lt;module&gt;
+    import tkinter as tk
+ModuleNotFoundError: No module named 'tkinter'
+" type="ImportError">
+<![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python3.6/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/usr/lib/python3.6/unittest/case.py", line 605, in run
+    testMethod()
+  File "/usr/lib/python3.6/unittest/loader.py", line 34, in testFailure
+    raise self._exception
+ImportError: Failed to import test module: model_tests
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/unittest/loader.py", line 153, in loadTestsFromName
+    module = __import__(module_name)
+  File "/mnt/c/users/mahe/desktop/new folder/newproject/src/unittest/python/model_tests.py", line 4, in <module>
+    matplotlib.use('TkAgg')
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/matplotlib/cbook/deprecation.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/matplotlib/cbook/deprecation.py", line 358, in wrapper
+    return func(*args, **kwargs)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/matplotlib/__init__.py", line 1281, in use
+    plt.switch_backend(name)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/matplotlib/pyplot.py", line 221, in switch_backend
+    backend_mod = importlib.import_module(backend_name)
+  File "/mnt/c/users/mahe/desktop/new folder/newproject/target/venv/build/cpython-3.6.9.final.0/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/matplotlib/backends/backend_tkagg.py", line 1, in <module>
+    from . import _backend_tk
+  File "/mnt/c/users/mahe/desktop/new folder/Newproject/env/lib/python3.6/site-packages/matplotlib/backends/_backend_tk.py", line 6, in <module>
+    import tkinter as tk
+ModuleNotFoundError: No module named 'tkinter'
+
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

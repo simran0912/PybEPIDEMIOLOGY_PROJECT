@@ -1,0 +1,58 @@
+WARNING: '.' not a valid package name; please use only .-separated package names in setup.py
+running clean
+'build/temp.linux-x86_64-3.6' does not exist -- can't clean it
+'build/lib' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-3.6' does not exist -- can't clean it
+running bdist_wheel
+running build
+running build_py
+creating build
+creating build/lib
+copying SIER_CODE.py -> build/lib
+copying SIR_CODE.py -> build/lib
+copying SIS_CODE.py -> build/lib
+copying __init__.py -> build/lib
+not copying SIER_CODE.py (output up-to-date)
+not copying SIR_CODE.py (output up-to-date)
+not copying SIS_CODE.py (output up-to-date)
+not copying __init__.py (output up-to-date)
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/wheel
+copying build/lib/SIER_CODE.py -> build/bdist.linux-x86_64/wheel
+copying build/lib/SIR_CODE.py -> build/bdist.linux-x86_64/wheel
+copying build/lib/SIS_CODE.py -> build/bdist.linux-x86_64/wheel
+copying build/lib/__init__.py -> build/bdist.linux-x86_64/wheel
+running install_egg_info
+running egg_info
+writing HPE_PROJECT.egg-info/PKG-INFO
+writing dependency_links to HPE_PROJECT.egg-info/dependency_links.txt
+writing namespace_packages to HPE_PROJECT.egg-info/namespace_packages.txt
+writing top-level names to HPE_PROJECT.egg-info/top_level.txt
+'license_file' option was not specified
+reading manifest file 'HPE_PROJECT.egg-info/SOURCES.txt'
+writing manifest file 'HPE_PROJECT.egg-info/SOURCES.txt'
+Copying HPE_PROJECT.egg-info to build/bdist.linux-x86_64/wheel/HPE_PROJECT-1.0-py3.6.egg-info
+Copying dependency_links.txt to build/bdist.linux-x86_64/wheel/HPE_PROJECT-1.0-py3.6.egg-info/dependency_links.txt
+Copying namespace_packages.txt to build/bdist.linux-x86_64/wheel/HPE_PROJECT-1.0-py3.6.egg-info/namespace_packages.txt
+Copying PKG-INFO to build/bdist.linux-x86_64/wheel/HPE_PROJECT-1.0-py3.6.egg-info/PKG-INFO
+Copying SOURCES.txt to build/bdist.linux-x86_64/wheel/HPE_PROJECT-1.0-py3.6.egg-info/SOURCES.txt
+Copying top_level.txt to build/bdist.linux-x86_64/wheel/HPE_PROJECT-1.0-py3.6.egg-info/top_level.txt
+Copying zip-safe to build/bdist.linux-x86_64/wheel/HPE_PROJECT-1.0-py3.6.egg-info/zip-safe
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/HPE_PROJECT-1.0.dist-info/WHEEL
+creating 'dist/HPE_PROJECT-1.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'SIER_CODE.py'
+adding 'SIR_CODE.py'
+adding 'SIS_CODE.py'
+adding '__init__.py'
+adding 'HPE_PROJECT-1.0.dist-info/METADATA'
+adding 'HPE_PROJECT-1.0.dist-info/WHEEL'
+adding 'HPE_PROJECT-1.0.dist-info/namespace_packages.txt'
+adding 'HPE_PROJECT-1.0.dist-info/top_level.txt'
+adding 'HPE_PROJECT-1.0.dist-info/zip-safe'
+adding 'HPE_PROJECT-1.0.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="model_tests.py" name="model_tests.Testset-20200626235202" skipped="0" tests="6" time="1043.585" timestamp="2020-06-27T00:09:28">
+	<testcase classname="model_tests.Testset" name="test_SEIR_RESULTS_NOT_EMPTY" time="255.122" timestamp="2020-06-26T23:56:20">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="model_tests.Testset" name="test_SEIR_divide_by_zero_errors" time="255.942" timestamp="2020-06-27T00:00:35">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="model_tests.Testset" name="test_SIR_RESULTS_not_empty" time="200.984" timestamp="2020-06-27T00:03:56">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="model_tests.Testset" name="test_SIR_divide_by_zero_errors" time="200.401" timestamp="2020-06-27T00:07:17">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="model_tests.Testset" name="test_SIS_RESULTS_NOT_EMPTY" time="59.126" timestamp="2020-06-27T00:08:16">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="model_tests.Testset" name="test_SIS_divide_by_zero_errors" time="72.010" timestamp="2020-06-27T00:09:28">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

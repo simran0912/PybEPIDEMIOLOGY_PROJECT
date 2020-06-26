@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: HPE-PROJECT
+Version: 1.0
+Summary: Example PyBuilder / Git project
+Home-page: UNKNOWN
+Author: Simran and Prajna
+Author-email: simranhora912@gmail.com
+Maintainer: 
+Maintainer-email: 
+License: None
+Description: An example PyBuilder / Git project for project management
+        and file version control. See blog post at http://bit.ly/2QY65wO for a
+        more through explanation.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python

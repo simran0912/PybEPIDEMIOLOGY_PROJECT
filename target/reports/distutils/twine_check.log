@@ -1,0 +1,4 @@
+Checking /mnt/c/users/mahe/desktop/new folder/newproject/target/dist/HPE PROJECT-1.0/dist/HPE_PROJECT-1.0-py3-none-any.whl: PASSED, with warnings
+  warning: `long_description_content_type` missing. defaulting to `text/x-rst`.
+Checking /mnt/c/users/mahe/desktop/new folder/newproject/target/dist/HPE PROJECT-1.0/dist/HPE PROJECT-1.0.tar.gz: PASSED, with warnings
+  warning: `long_description_content_type` missing. defaulting to `text/x-rst`.
